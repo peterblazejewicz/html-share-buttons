@@ -7,6 +7,11 @@ What is missing in Gregory's otherwise excellent work is text context for links.
 
 See: [ https://github.com/gschier/html-share-buttons/issues/1](https://github.com/gschier/html-share-buttons/issues/1)
 
+In addition the @reimertz `brand-colors` will be used via Bower to minimize custom CSS and use existing solutions via OSS.
+
+@peterblazejewicz  
+[Peter Blazejewicz](@peterblazejewicz)
+
 ---
 
 Here are some social buttons that don't require any Javascript. Just HTML, CSS, and some Font Awesome icons.
