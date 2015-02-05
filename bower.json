@@ -1,0 +1,22 @@
+{
+  "name": "html-share-buttons",
+  "version": "0.0.1",
+  "homepage": "https://github.com/peterblazejewicz/html-share-buttons",
+  "authors": [
+    "Peter Blazejewicz <peter.blazejewicz@gmail.com>"
+  ],
+  "description": "Social share buttons without JS",
+  "keywords": [
+    "social",
+    "buttons"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
