@@ -20,6 +20,7 @@
     "tests"
   ],
   "dependencies": {
-    "brand-colors": "~0.3.0"
+    "brand-colors": "~0.3.0",
+    "fontawesome": "~4.3.0"
   }
 }
