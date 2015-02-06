@@ -9,6 +9,13 @@ See: [ https://github.com/gschier/html-share-buttons/issues/1](https://github.co
 
 In addition the @reimertz `brand-colors` will be used via Bower to minimize custom CSS and use existing solutions via OSS.
 
+
+Using @browser-sync?
+
+```bash
+browser-sync start --server --files "buttons.html" --startPath "./buttons.html"
+```
+
 @peterblazejewicz  
 [Peter Blazejewicz](@peterblazejewicz)
 
