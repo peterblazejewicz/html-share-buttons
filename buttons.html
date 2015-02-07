@@ -11,7 +11,6 @@
                 width: 4em;
                 opacity: 0.9;
                 box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
-                outline: none;
                 text-align: center;
             }
 
@@ -25,7 +24,20 @@
               box-shadow: none;
               color: #e2e2e2;
               outline: none;
-            }            
+            }  
+            /* 
+             see: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L126-L140
+            */
+            .visuallyhidden {
+              border: 0;
+              clip: rect(0 0 0 0);
+              height: 1px;
+              margin: -1px;
+              overflow: hidden;
+              padding: 0;
+              position: absolute;
+              width: 1px;
+            }          
 
         </style>
     </head>
@@ -35,26 +47,31 @@
         <!-- Twitter -->
         <a href="http://twitter.com/share?url=https://github.com/gschier/html-share-buttons&text=HMTL%20Share%20Buttons&via=GregorySchier" target="_blank" class="share-btn bc-twitter-bg">
             <i class="fa fa-twitter"></i>
+            <span class="visuallyhidden">Twitter</span>
         </a>
 
         <!-- Google Plus -->
         <a href="https://plus.google.com/share?url=https://github.com/gschier/html-share-buttons" target="_blank" class="share-btn bc-google-bg">
             <i class="fa fa-google-plus"></i>
+            <span class="visuallyhidden">Google Plus</span>
         </a>
 
         <!-- Facebook -->
         <a href="http://www.facebook.com/sharer/sharer.php?u=https://github.com/gschier/html-share-buttons" target="_blank" class="share-btn bc-facebook-bg">
             <i class="fa fa-facebook"></i>
+            <span class="visuallyhidden">Facebook</span>
         </a>
 
         <!-- LinkedIn -->
         <a href="http://www.linkedin.com/shareArticle?url=https://github.com/gschier/html-share-buttons&title=HMTL%20Share%20Buttons&summary=HMTL%20Share%20Buttons&source=http://schier.co/blog/2014/10/22/pure-html-share-buttons.html" target="_blank" class="share-btn bc-linkedin-bg">
             <i class="fa fa-linkedin"></i>
+            <span class="visuallyhidden">LinkedIn</span>
         </a>
 
         <!-- Email -->
         <a href="mailto:?subject=HMTL%20Share%20Buttons&body=https://github.com/gschier/html-share-buttons" target="_blank" class="share-btn bc-dribbble-bg">
             <i class="fa fa-envelope"></i>
+            <span class="visuallyhidden">Email</span>
         </a>
     </body>
 </html>
