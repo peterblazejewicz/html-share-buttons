@@ -3,7 +3,17 @@ HTML-Only Share Buttons
 
 This is a derived work based on the original idea of [Gregory Schier](http://schier.co).
 
-What is missing in Gregory's otherwise excellent work is text context for links. They have no text labels, titles or alts. So if for some reason FontAwesome fails to load, or you are usign screen reader or other assistive technology - you will see nothing (maybe a color will be a visual clue if you know [Brand Colors](http://brandcolors.net/)).
+The point of this project is to come from this:
+
+![before](assets/images/before.jpg)
+
+(do you see any links like Twitter, Facebook?)
+
+to this:
+
+![after](assets/images/after.jpg)
+
+What is missing in Gregory's otherwise excellent work is text context for links. They have no text labels, titles or alts. So if for some reason FontAwesome fails to load, or you are using screen reader or other assistive technology - you will see nothing (maybe a color will be a visual clue if you know [Brand Colors](http://brandcolors.net/)). And the stylesheets removed `outline` property from links - in example - while the outline is on original blog post.
 
 See: [ https://github.com/gschier/html-share-buttons/issues/1](https://github.com/gschier/html-share-buttons/issues/1)
 
