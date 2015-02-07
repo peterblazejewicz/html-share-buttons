@@ -20,6 +20,18 @@ See: [ https://github.com/gschier/html-share-buttons/issues/1](https://github.co
 In addition the @reimertz `brand-colors` will be used via Bower to minimize custom CSS and use existing solutions via OSS.
 
 
+To install:
+```
+git clone https://github.com/peterblazejewicz/html-share-buttons.git
+```
+```
+cd html-share-buttons
+```
+```
+bower install
+```
+(this pulls down FontAwesome, BrandColors, etc)
+
 Using @browser-sync?
 
 ```bash
@@ -50,13 +62,21 @@ To make link look nice - both visually and from accessibility point of view - li
   <span>Twitter</span>
 </a>
 ```
-- add class to hide text from screen but not from your kitchend fridge news reader (which uses text to speech converter):
+- add class to hide text from screen but not from your kitchen fridge's news reader (which uses text to speech converter):
 ```html
 <a class="share-btn" href="...">
   <i class="fa fa-twitter"></i>
   <span class="visuallyhidden">Twitter</span>
 </a>
 ```
+- add brand class name (here `bc-twitter-bg`) from Brand Colors project (included in Bower as dependency):
+```html
+<a class="share-btn bc-twitter-bg" href="...">
+  <i class="fa fa-twitter"></i>
+  <span class="visuallyhidden">Twitter</span>
+</a>
+```
+
 
 The '.visuallyhidden' class name is taken from [@h5pb](https://github.com/h5bp/html5-boilerplate) recommendation - you can use your own (Bootstrap uses `.sr-only` class name, etc).
 
