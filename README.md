@@ -26,8 +26,43 @@ Using @browser-sync?
 browser-sync start --server --files "buttons.html" --startPath "./buttons.html"
 ```
 
+To make link look nice - both visually and from accessibility point of view - links you need just to:
+
+- use correct markup:
+```html
+<a class="..." href="...">
+</a>
+```
+- make using standard class:
+```html
+<a class="share-btn" href="...">...</a>
+```
+- add web font based brand icon:
+```html
+<a class="share-btn" href="...">
+  <i class="fa fa-twitter"></i>
+</a>
+```
+- add actual text of link
+```html
+<a class="share-btn" href="...">
+  <i class="fa fa-twitter"></i>
+  <span>Twitter</span>
+</a>
+```
+- add class to hide text from screen but not from your kitchend fridge news reader (which uses text to speech converter):
+```html
+<a class="share-btn" href="...">
+  <i class="fa fa-twitter"></i>
+  <span class="visuallyhidden">Twitter</span>
+</a>
+```
+
+The '.visuallyhidden' class name is taken from [@h5pb](https://github.com/h5bp/html5-boilerplate) recommendation - you can use your own (Bootstrap uses `.sr-only` class name, etc).
+
 @peterblazejewicz  
 [Peter Blazejewicz](@peterblazejewicz)
+
 
 ---
 
