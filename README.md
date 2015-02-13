@@ -3,6 +3,8 @@ HTML-Only Share Buttons
 
 This is a derived work based on the original idea of [Gregory Schier](http://schier.co).
 
+The project includes also a derivative work based on similar blog post by [Jonathan Suh - Responsible Social Share Links](https://jonsuh.com/blog/social-share-links/?utm_source=dlvr.it&utm_medium=twitter)
+
 The point of this project is to come from this:
 
 ![before](assets/images/before.jpg)
